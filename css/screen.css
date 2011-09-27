@@ -1,7 +1,7 @@
 ---
 ---
 {% include bootstrap.css %}
-{% include prettify.css %}
+{% include sourcecode.css %}
 
 #blog code {
 	background-color:#eee;
