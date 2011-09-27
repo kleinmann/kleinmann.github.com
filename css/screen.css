@@ -3,13 +3,13 @@
 {% include bootstrap.css %}
 {% include sourcecode.css %}
 
-#blog code {
+.post code {
 	background-color:#eee;
 	border:1px solid #ddd;
 	padding:5px;
 }
 
-#blog pre code {
+.post pre code {
 	display:block;
-	padding-left:25px;
+	padding-left:15px;
 }
