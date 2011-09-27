@@ -5,6 +5,9 @@ title: Uwe Kleinmann &laquo; Blog
 <div class="row">
   <div class="span16">
     <ul id="posts">
+      {% if site.posts.size == 0 %}
+      <li>It seems I haven't written anything yet. Bad me!</li>
+      {% endif %}
       {% for post in site.posts %}
         <li><a href="{{ post.url }}"><span>{{ post.date | date_to_string }}</span> &raquo; {{ post.title }}</li>
       {% endfor %}
