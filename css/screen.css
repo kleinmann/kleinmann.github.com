@@ -1,0 +1,15 @@
+---
+---
+{% include bootstrap.css %}
+{% include prettify.css %}
+
+#blog code {
+	background-color:#eee;
+	border:1px solid #ddd;
+	padding:5px;
+}
+
+#blog pre code {
+	display:block;
+	padding-left:25px;
+}

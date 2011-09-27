@@ -1,0 +1,12 @@
+---
+layout: base
+---
+<div class="row">
+  <div class="span14 offset1 post">
+    <h2 style="margin-bottom:0">
+      <a href="{{ post.url }}">{{ post.title }}</a>
+    </h2>
+    <small>Written on {{ post.date | date_to_string }}</small>
+    {{ content }}
+  </div>
+</div>

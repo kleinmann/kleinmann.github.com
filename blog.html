@@ -1,0 +1,13 @@
+---
+layout: base
+title: Uwe Kleinmann &laquo; Blog
+---
+<div class="row">
+  <div class="span16">
+    <ul id="posts">
+      {% for post in site.posts %}
+        <li><a href="{{ post.url }}"><span>{{ post.date | date_to_string }}</span> &raquo; {{ post.title }}</li>
+      {% endfor %}
+    </ul>
+  </div>
+</div>
