@@ -3,9 +3,9 @@ layout: post
 title: Fixing HTTPS error in puppet 3 on Mac OS X 10.8.2 with RVM and Ruby 1.9.3
 ---
 <h2 style="margin-bottom:0">
-  <a href="{{ page.url }}">{{ page.title }}</a>
+  <a itemprop="name" href="{{ page.url }}">{{ page.title }}</a>
 </h2>
-<sub>Written on {{ page.date | date_to_long_string }}</sub><hr />
+<sub>Written on <span itemprop="datePublished">{{ page.date | date_to_long_string }}</span></sub><hr />
 
 So, I wanted to try out puppet 'cause I heard it's awesome.
 
